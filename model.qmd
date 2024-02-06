@@ -12,6 +12,8 @@ from pandas import get_dummies
 import numpy as np
 from sklearn.linear_model import LinearRegression
 from sklearn import preprocessing
+from vetiver import VetiverModel, vetiver_pin_write
+import pins
 ```
 
 ## Get Data
@@ -43,3 +45,11 @@ print(f"Columns {X.columns}")
 print(f"Coefficients {model.coef_}")
 ```
 
+
+## Store model
+
+```{python}
+v = VetiverModel(model, model_name='penguin_model', prototype_data=X)
+b = pins.board_folder('data/model', allow_pickle_read=True)
+vetiver_pin_write(b, v)
+```
