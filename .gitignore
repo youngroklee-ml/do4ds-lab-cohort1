@@ -7,3 +7,7 @@ _site/
 
 # pins
 /data/
+
+# environment variables
+.env
+
