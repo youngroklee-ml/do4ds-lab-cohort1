@@ -7,22 +7,35 @@ format:
 
 
 ```{python}
-from palmerpenguins import penguins
 from pandas import get_dummies
 import numpy as np
 from sklearn.linear_model import LinearRegression
 from sklearn import preprocessing
 from vetiver import VetiverModel, vetiver_pin_write
 import pins
+import duckdb
 ```
 
 ## Get Data
 
+Database connect
 
 ```{python}
-df = penguins.load_penguins().dropna()
+con = duckdb.connect('my-db.duckdb')
+```
+
+Read data
+
+```{python}
+df = con.execute("SELECT * FROM penguins").fetch_df().dropna()
 
 df.head(3)
+```
+
+Database disconnect
+
+```{python}
+con.close()
 ```
 
 ## Define Model and Fit
