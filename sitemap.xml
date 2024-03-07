@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://youngroklee-ml.github.io/do4ds-lab-cohort1/index.html</loc>
-    <lastmod>2024-02-29T04:28:51.051Z</lastmod>
-  </url>
-  <url>
     <loc>https://youngroklee-ml.github.io/do4ds-lab-cohort1/about.html</loc>
-    <lastmod>2024-02-29T04:28:51.051Z</lastmod>
+    <lastmod>2024-03-07T12:11:51.680Z</lastmod>
   </url>
   <url>
     <loc>https://youngroklee-ml.github.io/do4ds-lab-cohort1/eda.html</loc>
-    <lastmod>2024-02-29T04:28:51.051Z</lastmod>
+    <lastmod>2024-03-07T12:11:51.089Z</lastmod>
   </url>
   <url>
     <loc>https://youngroklee-ml.github.io/do4ds-lab-cohort1/model.html</loc>
-    <lastmod>2024-02-29T04:28:51.051Z</lastmod>
+    <lastmod>2024-03-07T12:11:47.838Z</lastmod>
+  </url>
+  <url>
+    <loc>https://youngroklee-ml.github.io/do4ds-lab-cohort1/index.html</loc>
+    <lastmod>2024-03-07T12:11:51.390Z</lastmod>
   </url>
 </urlset>
