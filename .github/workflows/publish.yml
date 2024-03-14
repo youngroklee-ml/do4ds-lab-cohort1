@@ -30,7 +30,7 @@ jobs:
               with:
                 cache-version: 1
               env:
-                RENV_CONFIG_REPOS_OVERRIDE: https://packagemanager.rstudio.com/all/2024-01-12
+                RENV_CONFIG_REPOS_OVERRIDE: https://packagemanager.posit.co/cran/__linux__/jammy/2024-01-12
 
             - name: Install Python and Dependencies
               uses: actions/setup-python@v4
