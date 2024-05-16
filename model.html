@@ -308,7 +308,7 @@ Coefficients [  32.53688677 -298.76553447 1094.86739145  547.36692408]</code></p
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>v <span class="op">=</span> VetiverModel(model, model_name<span class="op">=</span><span class="st">'penguin_model'</span>, prototype_data<span class="op">=</span>X)</span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>b <span class="op">=</span> pins.board_folder(<span class="st">'data/model'</span>, allow_pickle_read<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>b <span class="op">=</span> pins.board_s3(<span class="st">'do4ds-lab-letsgo'</span>, allow_pickle_read<span class="op">=</span><span class="va">True</span>)</span>
 <span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>vetiver_pin_write(b, v)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stderr">
@@ -317,7 +317,7 @@ Coefficients [  32.53688677 -298.76553447 1094.86739145  547.36692408]</code></p
  with vetiver.model_card()
 Writing pin:
 Name: 'penguin_model'
-Version: 20240322T023144Z-0f6c7</code></pre>
+Version: 20240516T040258Z-0f6c7</code></pre>
 </div>
 </div>
 
