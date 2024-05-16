@@ -13,3 +13,6 @@ _site/
 
 # pycache
 __pycache__/
+
+# aws
+*.pem

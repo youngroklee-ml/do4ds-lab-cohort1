@@ -63,6 +63,6 @@ print(f"Coefficients {model.coef_}")
 
 ```{python}
 v = VetiverModel(model, model_name='penguin_model', prototype_data=X)
-b = pins.board_folder('data/model', allow_pickle_read=True)
+b = pins.board_s3('do4ds-lab-letsgo', allow_pickle_read=True)
 vetiver_pin_write(b, v)
 ```

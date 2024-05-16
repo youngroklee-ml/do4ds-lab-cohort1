@@ -145,3 +145,5 @@ websockets
 widgetsnbextension
 xxhash
 zipp
+boto3
+s3fs
